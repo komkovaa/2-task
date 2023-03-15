@@ -349,7 +349,6 @@
     .red-ball,
     .purple-ball,
     .purple-light,
-    .header__item:last-child,
     .promo__list_desktop,
     .footer__list_desktop {
         display: none;
@@ -370,7 +369,14 @@
     .header__item {
         font-size: 12px;
         text-transform: uppercase;
+    }
+
+    .header__link {
         padding-right: 16px;
+    }
+
+    .header__link:last-of-type {
+        display: none;
     }
 
     .content {
